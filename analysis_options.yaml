@@ -1,0 +1,26 @@
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  language:
+    # TODO: Esto debe ser true
+    strict-casts: false
+    strict-raw-types: false
+  errors:
+    use_build_context_synchronously: warning
+    invalid_annotation_target: ignore
+    dead_null_aware_expression: ignore
+    prefer_const_constructors_in_immutables: ignore
+    avoid_print: warning
+    deprecated_member_use: warning
+    depend_on_referenced_packages: warning
+    always_declare_return_types: warning
+    invalid_assignment: warning
+    non_bool_operand: warning
+
+linter:
+  rules:
+    public_member_api_docs: false
+    type_annotate_public_apis: false
+    lines_longer_than_80_chars: false
+    omit_local_variable_types: false
+    flutter_style_todos: false
+    prefer_if_elements_to_conditional_expressions: false

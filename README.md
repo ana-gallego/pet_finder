@@ -1,10 +1,16 @@
 # pet_finder
-D-velopers Challenge - Chapter 1
 
-Hola a todos,
-en estos momentos estoy realizando un refactor al código para subirlo y que todos puedan usarlo, estará disponible en el transcurso de esta semana.
-De momento les adelanto que usé:
-- riverpod para la gestion de estados
-- http para las llamadas al api
-- appinio_swiper para las cards
-- https://dribbble.com/shots/21889610-Pets-care cómo base del diseño
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
